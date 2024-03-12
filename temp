@@ -1,0 +1,13 @@
+			vals = [34, 289, 121, 476, 398, 156, 217, 465, 52, 
+				391, 237, 83, 184, 307, 419, 11, 93, 262, 
+				174, 425, 389, 276, 142, 356, 468, 59, 325, 
+				30, 495, 108, 193, 71, 443, 7, 277, 64, 203, 
+				385, 146, 482]
+
+			def closest(lstIn, n):
+				return lstIn[min(range(len(lstIn)), key = lambda i: abs(lstIn[i]-n))]
+
+			def runFunc():
+				inputHex = Element('hex_input').element.value
+				outputHex = closest(vals, inputHex)
+				Element('hex_output').element.innerText = outputHex

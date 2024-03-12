@@ -1,0 +1,79 @@
+* {
+	margin: 0px;
+}
+
+header {
+	background-color: rgb(50, 50, 50);
+	box-shadow: 0px 5px 5px gray;
+	min-height: 6vh;
+	color: rgb(236, 236, 236);
+	text-align: center;
+}
+
+body {
+	background-color: rgb(240, 240, 240);
+}
+
+main {
+	margin: 25px;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+main p {
+	width: 75%;
+}
+
+.tab {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+footer {
+	background-color: darkgray;
+	margin-top: auto;
+	box-shadow: 0px -5px 5px gray;
+	min-height: 5vh;
+	display: flex;
+}
+
+footer p {
+	display: inline;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	align-self: flex-end;
+}
+
+footer a {
+	display: inline;
+	margin-left: auto;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	align-self: flex-end;
+}
+
+footer a img{
+	height: 3vh;
+	align-self: flex-end;
+}
+
+table {
+	border-collapse: seperate;
+	border-spacing: 20px 0;
+}
+
+td {
+	text-align: center;
+	padding: 10px 0;
+}
+
+.districtLogo {
+	display: inline-block;
+	border-radius: 50px;
+	border: 3px solid rgb(30, 30, 30);
+}
+
+a p {
+	display: inline-block;
+}
